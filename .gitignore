@@ -1,0 +1,24 @@
+# -------------------------------------------------------------------------
+# Rust Build Artifacts
+# -------------------------------------------------------------------------
+# This matches "target/" in ANY subdirectory.
+# No matter how many cargo projects you make (guessing_game, etc.),
+# their build folders will be ignored automatically.
+target/
+
+# -------------------------------------------------------------------------
+# Manual Compilation Output
+# -------------------------------------------------------------------------
+# If you run `rustc main.rs` manually, it creates a binary named "main".
+# This line ignores a file named "main" in ANY folder.
+main
+
+# -------------------------------------------------------------------------
+# Editor & OS Clutter (Linux/Vim/VS Code)
+# -------------------------------------------------------------------------
+# Vim swap files (since you might use Neovim)
+*.swp
+*.swo
+
+*~
+*.rs.bk
